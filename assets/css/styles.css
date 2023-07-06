@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variáveis */
+:root {
+    --color-light: #fff;
+    --color-blue: #6959c5;
+    --transition: .5s;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-light);
+    font-weight: 900;
+    transition: var(--transition);
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Formatação do Botão (Mais Informações) */
+.btn {
+    background-color: rgb(39, 134, 198);
+    /* background-color: definindo a cor de fundo do botão Mais Informações. */
+    border: 2px solid rgb(39, 134,198);
+    /* border: adicionando uma borda no botão Mais Informações*/
+    padding: 8px 3.5rem;
+    border-radius: 5px; 
+    /* border radius: arrendondando as bordas do botão de Mais Informações.  */
+    color: var(--color-light); 
+    transition: var(--transition);
+}
+
+/* Colocando efeito no botão (Mais Informações) */
+.btn:hover {
+    background-color: transparent;
+    /* Deixando o fundo do botão transparente quando passar o mouse sobre ele. */
+    color: rgb(16, 136, 184);
+    /* Deixando a cor da letra do botão azul quando o hover acontecer. */
+}
+
+.container-inicial {
+    width: 100%;
+    min-height: 100vh;
+    /* 100vh: ou seja, é 100% da visualização do usuário. */
+    background-image: linear-gradient(rgba(4, 9, 30, .3), rgba(4, 9, 30, .9)),
+        url(../images/imagem_inicio.jpg);
+    /* background-image: Definindo a imagem de fundo da div */
+    background-position: 50%;
+    /* background-position: ou seja, tá pegando o ponto inicial da imagem e colocando no ponto inicial da tela. Então vamos ter sempre a imagem centralizada independente do tamanho da tela. */
+    background-repeat: no-repeat;
+    /* background-repeat: no-repeat: serve para não repetir ou duplicar a imagem de fundo. */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.container-imagem1 {
+    width: 60%;
+    padding: 5rem;
+    color: var(--color-light);
+}
+
+.container-imagem1 h2 {
+    font-size: 7vmin;
+}
+
+.container-imagem1 p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    line-height: 3.6rem;
+}
+
+.area-login {
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    background-color: #175071;
+    border-radius: 10px;
+    transform: translateX(180px);
+    transform: translateX(-80px);
+    margin-top: -40px;
+    box-shadow: 1px 1px 30px;
+}
+
+.area-login h1 {
+    color: #fff;
+    margin-top: 10px;
+}
+
+.assets-login {
+  width: 350px;
+  height: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.assets-login {
+  padding: 10px 20px;
+  background-color: #2377a8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transform: translate(25px);
+  margin-top: 20px;
+}
+
+.container-email {
+    transform: translateY(40px);
+    font-size: 18.5px;
+}
+
+.container-senha {
+    transform: translateY(80px);
+    font-size: 18.5px;
+}
+
+.container-enviar input {
+    transform: translateY(190px);
+}
+
+.container-enviar h3 {
+    transform: translateY(242px);
+}
+
+.container-enviar div {
+    transform: translateY(12px);
+    background-color: #175071;
+    border: 2px solid;
+}
+
+input{
+    padding: 5px 2px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.btn-informações {
+    font-size: 12px;
+}
+
+.btn-primary {
+    transform: translateY(120px);
+    font-size: 16px;
+    border: 1px solid white;
+}
+
+.btn-cadastro {
+    transform: translateY(160px);
+    font-size: 16px;
+}
+
+.text-question {
+    transform: translateY(145px);
+}
+
