@@ -15,9 +15,9 @@ Este é um projeto simples que consiste em uma tela de login não funcional dese
 
 Comando que você deve utilizar para clonar o repositório no seu pc: git clone https://github.com/lele-rdm/tela-de-login.git
 
-1. Navegue até o diretório raiz do projeto.
+2. Navegue até o diretório raiz do projeto.
 
 Comando que você deve utilizar para ir até o diretório raiz: cd tela-de-login
 
-1. Abra o arquivo "index.html" em seu navegador web.
-2. Você verá a tela de login não funcional, onde poderá digitar um nome de usuário e senha, mas não realizará nenhuma ação.
+3. Abra o arquivo "index.html" em seu navegador web.
+4. Você verá a tela de login não funcional, onde poderá digitar um nome de usuário e senha, mas não realizará nenhuma ação.
